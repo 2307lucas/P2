@@ -10,12 +10,6 @@ td, th {
     padding: 8px;
 }
 
-h2 {
-    color: black;
-    text-align: center;
-}
-
-
 
 #siteheader{
     background-image:url("books2.jpg");
@@ -77,3 +71,8 @@ label{
 	padding: 10px;
 	opacity:.8;
 }
+
+* {box-sizing: border-box;}
+
+
+
