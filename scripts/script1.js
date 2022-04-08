@@ -1,4 +1,3 @@
-
 var objPeople = [
     {
         username: "Simon",
@@ -21,9 +20,10 @@ function logIn() {
     var username = document.getElementById("username").value
     var password = document.getElementById("password").value
 
-    for (i = 0; i <objPeople.length; i++){
+    for (i = 0; i < objPeople.length; i++) {
         if (username === objPeople[i].username && password === objPeople[i].password) {
             console.log(username + "\tis logged in")
+            window.location.href = "forside.html";
         } else {
             console.log("Incorrect username or password")
         }
