@@ -24,6 +24,7 @@ function logIn() {
     for (i = 0; i <objPeople.length; i++){
         if (username === objPeople[i].username && password === objPeople[i].password) {
             console.log(username + "\tis logged in")
+            window.location.href= "forside.html";
         } else {
             console.log("Incorrect username or password")
         }
