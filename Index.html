@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>AAU-BOOKS</title>
     <link rel="stylesheet" href="styles/style1.css"/>
+
     <style>
 
     </style>
@@ -15,9 +16,9 @@
     <img src='AAUlogo.png' alt="AAULOGO" style="width:100px;height:100px;">
     <label for="username">Username</label>
     <input type="text" id="username">
-    <label for="pass">Password</label>
-    <input type="password" id="pass">
-    <input type="submit" value="Sign In">
+    <label for="password">Password</label>
+    <input type="password" id="password">
+    <button type="button" onclick="logIn()">Sign in</button>
     <label>
         <input type="text" placeholder="Search..">
     </label>
@@ -25,6 +26,8 @@
     <a href="#">About The Service</a>
 
 </div>
+<form name="myForm" method="post">
+
 
     <div id="siteheader">
         <h1> AAU-BOOKS</h1>
@@ -59,9 +62,10 @@
 </td>
 </table>
 </div>
+
 <p></p>
 
-
+</form>
 
 </body>
 </html>
